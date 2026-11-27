@@ -1,0 +1,17 @@
+ffmpeg.exe 随附说明
+====================
+
+版本：ffmpeg N-92722-gf22fcd4483（2018-12 构建，含 libx264 / libx265 / aac 等）
+用途：本工具用它做「像素级重编码旋转」与「预览画面截帧」，
+      MP4/MOV 的元数据旋转不依赖它。
+
+许可：FFmpeg 以 GPL v3 发布（该构建 --enable-gpl）。源码与构建脚本见
+      https://ffmpeg.org/  ·  https://git.ffmpeg.org/ffmpeg.git
+      本目录仅做原样分发，未修改二进制。
+
+若你在别处已有 ffmpeg，也可以删掉本文件，程序会自动在以下位置查找：
+      1) 环境变量 VIDEO_ROTATOR_FFMPEG
+      2) 本脚本同目录 / bin\ / bin\ffmpeg\bin\
+      3) 系统 PATH
+      4) C:/ffmpeg/bin 等常见安装位置
+或点击界面右上角 ffmpeg 徽标手动指定。
